@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-import data from './data';
+import React, { useState } from 'react'
+import data from './data'
 function App() {
-  
-  
-  return (
-  <h2>lorem ipsum project setup</h2>
-    )
+  const [count, setCount] = useState(0)
+  const [text, setText] = useState([])
+
+  return <section className='section-center'></section>
 }
 
-export default App;
+export default App
